@@ -1,0 +1,12 @@
+{
+  "name": "claude-code-safety-hooks-demo",
+  "version": "1.0.0",
+  "description": "Claude Code Safety Hooks デモテンプレート",
+  "scripts": {
+    "test": "node test-smoke.js",
+    "format": "npx prettier --write 'src/**/*.{js,jsx,ts,tsx,json,css,html}'"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.0"
+  }
+}
